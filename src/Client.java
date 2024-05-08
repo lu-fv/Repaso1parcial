@@ -25,9 +25,8 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client{" +
-                "nameAndSurname='" + nameAndSurname + '\'' +
-                ", passport='" + passport + '\'' +
-                '}';
+        return "Client : {" + '\n' +
+                " nameAndSurname='" + nameAndSurname + '\'' + '\n' +
+                " passport='" + passport + '\'';
     }
 }

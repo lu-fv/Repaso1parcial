@@ -76,14 +76,14 @@ public abstract class TuristPackage {
 
     @Override
     public String toString() {
-        return "TuristPackage{" +
-                "id=" + id +
-                ", stock=" + stock +
-                ", days=" + days +
-                ", unitaryPrice=" + unitaryPrice +
-                ", totalPrice=" + totalPrice +
-                ", destiny=" + destiny +
-                '}';
+        return  "'\n' -----------------------" +
+                '\n' +" TuristPackage >>" + '\n' +
+                " id=" + id + '\n' +
+                " stock=" + stock + '\n' +
+                " days=" + days + '\n' +
+                " unitaryPrice= $" + unitaryPrice + '\n' +
+                " totalPrice= $" + totalPrice + '\n' +
+                " destiny= " + destiny;
     }
 
 

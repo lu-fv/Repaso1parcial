@@ -1,4 +1,4 @@
 public enum Spa {
-    HIDRO ,
+    HIDRO,
     MUDBATHS,
 }

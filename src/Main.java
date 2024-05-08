@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -22,7 +23,15 @@ public class Main {
         ids1.add(2);
         agency.ClientAndPackage("AAS203",ids1);
 
+        agency.ClientAndPackage("Matias Cabeza", ids);
+
         agency.showPackageClient();
+
+       /* int opc;
+        Scanner sc = new Scanner( System.in);
+        agency.deletePackage();
+        sc.next();
+        agency.showPackage();*/
     }
 
     private static void createTuristPackages(Agency agency) {
@@ -43,12 +52,14 @@ public class Main {
     private static void createClientList(Agency agency) {
 
         Client client1 = new Client("Matias Cabeza", "AAS203");
+        Client client4 = new Client("Matias Cabeza", "AAS203");
         Client client2 = new Client("Lucia Franco", "AAS206");
         Client client3 = new Client("Manuel Zucchi", "AAS209");
 
         agency.AddClients(client1);
         agency.AddClients(client2);
         agency.AddClients(client3);
+        agency.AddClients(client4);
 
 
     }

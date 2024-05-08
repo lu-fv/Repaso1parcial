@@ -40,8 +40,7 @@ public class Adventure extends TuristPackage implements increacePriceAd, travelI
 
     @Override
     public String toString() {
-        return "Adventure{" +
-                "activities=" + activities +
-                "} " + super.toString();
+        return super.toString()+'\n' +
+                " Adventure: " +  " activities=" + activities  ;
     }
 }

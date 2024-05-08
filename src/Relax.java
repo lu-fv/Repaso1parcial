@@ -31,8 +31,7 @@ public class Relax extends TuristPackage {
 
     @Override
     public String toString() {
-        return "Relax{" +
-                "spa=" + spa +
-                "} " + super.toString();
+        return  super.toString() +'\n' +
+                " spa=" + spa +'\n' ;
     }
 }

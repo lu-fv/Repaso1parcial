@@ -29,9 +29,8 @@ public class Culture extends TuristPackage implements travelInsurance{
 
     @Override
     public String toString() {
-        return "Culture{" +
-                "visit='" + visit + '\'' +
-                "} " + super.toString();
+        return  super.toString()+'\n' +
+                " Culture:" + " visit='" + visit + '\'';
     }
 
 }
